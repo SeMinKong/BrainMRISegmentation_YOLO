@@ -1,0 +1,11 @@
+*.pt
+*.jpg
+*.png
+*.txt
+*.csv
+*.cache
+*.sha256
+manifest.json
+args.yaml
+data.yaml
+__pycache__
