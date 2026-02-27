@@ -4,7 +4,7 @@ from pathlib import Path
 from ultralytics import YOLO
 import cv2
 
-def run_test(task, model_path, source, results_dir, imgsz=320, conf=0.25):
+def run_test(task, model_path, source, results_dir, imgsz=320, conf=0.7):
     """Loads a model and runs inference on test images."""
     print(f"Loading {task} model from {model_path}...")
     
@@ -67,7 +67,7 @@ def run_test(task, model_path, source, results_dir, imgsz=320, conf=0.25):
 
     print(f"Inference complete. All results saved to {output_dir}")
 
-def run_integrated_test(cls_weights, seg_weights, source, results_dir, imgsz=320, conf=0.25):
+def run_integrated_test(cls_weights, seg_weights, source, results_dir, imgsz=320, conf=0.7):
     """Runs both classification and segmentation on test images and combines them."""
     print(f"Running integrated inference...")
     
