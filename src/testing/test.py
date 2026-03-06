@@ -149,8 +149,7 @@ def main():
 
     # Default weight paths
     cls_default = base_path / "models" / "yolo11m-cls-brain-best.pt"
-    seg_default = base_path / "results" / "segmentation" / "weights" / "best.pt"
-
+    seg_default = base_path / "models" / "yolo11m-seg-brain-best.pt"
     if args.task == "cls":
         model_path = args.weights or cls_default
         source = args.source or default_cls_source
