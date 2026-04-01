@@ -2,6 +2,13 @@
 
 **[English Version](./README.en.md)**
 
+**DEMO**
+이 데모는 본인이 WEB UI를 추가하여 이 모델을 사용할 수 있는 상황을 시연한 것입니다.
+
+<video src="https://github.com/user-attachments/assets/9994b0b3-187b-4c12-bfd3-170f6bb8dda5" width="600" controls></video>
+
+
+
 **YOLO11** 아키텍처를 활용하여 뇌 MRI 이미지에서 종양을 **분류Classification**하고 **분할Segmentation**하는 엔드-투-엔드 의료 영상 파이프라인입니다. 단순한 진단을 넘어, 종양의 유형 파악과 정확한 경계 추출을 하나의 통합된 시스템으로 구현했습니다.
 
 ## 주요 특징
