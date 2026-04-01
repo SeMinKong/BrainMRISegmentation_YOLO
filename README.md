@@ -64,5 +64,8 @@ python src/testing/test.py --task integrated --source /path/to/mri_image.jpg
 - **분류(Classification)**: Top-1 Accuracy 99.4%
 - **분할(Segmentation)**: Mask mAP50 92.7%
 
+> 💡 **더 자세한 정보가 필요하신가요?**
+> 상세한 CLI 인자 설정, 마스크-다각형 변환 과정 및 커스텀 클래스 확장법 등은 [상세 매뉴얼(DETAILS.md)](./DETAILS.md)에서 확인하실 수 있습니다.
+
 ---
 BRISC 2025 의료 영상 AI 챌린지를 위해 개발되었습니다.
